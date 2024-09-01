@@ -30,6 +30,7 @@ body {
 
 img {
     height: 363px;
+    width: 100%;
 }
 
 .title {
@@ -88,9 +89,6 @@ h5 {
         width: 80%;
     }
 
-    img {
-        width: 350px;
-    }
 
     .title {
         font-size: 13px;
@@ -102,14 +100,14 @@ h5 {
     }
 }
 
-@media (min-width: 410) and (max-width: 445) {
+/* @media (min-width: 410) and (max-width: 445) {
     img {
         width: 325px;
     }
-}
+} */
 
-@media (min-width: 350px) and (max-width: 400px) {
+/* @media (min-width: 350px) and (max-width: 400px) {
     img {
         width:295px;
     }
-}
+} */
