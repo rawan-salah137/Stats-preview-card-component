@@ -3,111 +3,48 @@
     padding: 0;
 }
 
-
 body {
-    background-color: hsl(233, 47%, 7%);
-    color: white;
-    text-align: center;
-    font-family: "Inter", sans-serif;
-    width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    min-height: 100svh;
+    background-color: hsl(212, 45%, 89%);
+    font-family: "Outfit", system-ui;
+    gap: 2rem;
+    padding: 1rem;
 }
 
 .container {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     justify-content: center;
-    background-color: hsl(244, 38%, 16%);
-    margin: 200px ;
-    width: 1000px;
-}
-
-.container-2 {
-    height: 310px;
+    background-color: white;
+    gap: 2rem;
+    max-width: 20rem;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    padding: 16px;
 }
 
 img {
-    height: 363px;
-    width: 100%;
+    max-width: 100%;
+    display: block;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
-
 .title {
-    color: white;
     font-weight: 700;
-    font-size: 25px;
-    margin: 20px;
+    color: hsl(218, 44%, 22%);
 }
 
-span {
-    color: hsl(277, 64%, 61%);
+.p {
+    text-align: center;
+    color: hsl(216, 15%, 48%);
 }
-
-.p p {
-    color: hsla(0, 0%, 100%, 0.6);
-    font-size: 18px;
-    margin: 10px 100px;
-    width: 415px;
-}
-
-.h4 {
-    display: flex;
-    justify-content: space-around;
-    text-transform: uppercase;
-}
-
-.h4 h4 {
-    margin: 35px 0 30px;
-}
-
-h5 {
-    color: hsla(0, 0%, 100%, 0.6);
-    margin: -15px 20px 42px;
-}
-
-@media (max-width:950px) {
-
-    .container {
-        flex-wrap: wrap;
-        width: 450px;
-    }
-
-    .title {
-        margin: 90px 95px 50px;
-        font-size: 19px;
-    }
-
-    .h4 {
-        flex-direction: column;
-    }
-}
-
-
-@media (max-width: 450px) {
-    .container {
-        width: 80%;
-    }
-
-
-    .title {
-        font-size: 13px;
-    }
-
-    .p p {
-        font-size: 10px;
-        width: 300px;
-    }
-}
-
-/* @media (min-width: 410) and (max-width: 445) {
-    img {
-        width: 325px;
-    }
-} */
-
-/* @media (min-width: 350px) and (max-width: 400px) {
-    img {
-        width:295px;
-    }
-} */
