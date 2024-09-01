@@ -65,11 +65,7 @@ h5 {
     margin: -15px 20px 42px;
 }
 
-@media (min-width:350px) and (max-width:950px) {
-
-    /* body {
-        
-    } */
+@media (max-width:950px) {
 
     .container {
         flex-wrap: wrap;
@@ -83,5 +79,37 @@ h5 {
 
     .h4 {
         flex-direction: column;
+    }
+}
+
+
+@media (max-width: 450px) {
+    .container {
+        width: 80%;
+    }
+
+    img {
+        width: 350px;
+    }
+
+    .title {
+        font-size: 13px;
+    }
+
+    .p p {
+        font-size: 10px;
+        width: 300px;
+    }
+}
+
+@media (min-width: 410) and (max-width: 445) {
+    img {
+        width: 325px;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 400px) {
+    img {
+        width:295px;
     }
 }
